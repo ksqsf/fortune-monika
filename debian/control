@@ -1,0 +1,15 @@
+Source: fortune-monika
+Section: games
+Priority: optional
+Maintainer: ksqsf <debian@ksqsf.moe>
+Build-Depends: debhelper (>= 9), fortune-mod
+Standards-Version: 3.9.8
+Homepage: https://github.com/ksqsf/fortune-monika
+
+Package: fortune-monika
+Architecture: all
+Depends: ${misc:Depends}, fortune-mod
+Description: Chat with Monika using fortune
+ fortune-monika contains fortune cookies extracted
+ from dialogues of Monika in Doki Doki Literature 
+ Club.

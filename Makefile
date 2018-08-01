@@ -11,7 +11,8 @@ clean:
 	rm -f monika.dat
 
 install: monika monika.dat
-	install -m0644 monika /usr/share/games/fortunes
-	install -m0644 monika.dat /usr/share/games/fortunes
+	mkdir -p ${DESTDIR}/usr/share/games/fortunes
+	install -m0644 monika ${DESTDIR}/usr/share/games/fortunes
+	install -m0644 monika.dat ${DESTDIR}/usr/share/games/fortunes
 
 .PHONY: all install clean

@@ -1,0 +1,10 @@
+The Debian Package fortune-monika
+----------------------------
+
+To chat with Monika, just do
+
+$ fortune monika
+
+That's it! Enjoy!
+
+ -- ksqsf <debian@ksqsf.moe>  Thu, 02 Aug 2018 02:59:15 +0800
